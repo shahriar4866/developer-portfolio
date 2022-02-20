@@ -2,7 +2,7 @@ body {font-family: 'Poppins', sans-serif;
       margin: 0px;}
 h1 {font-size: 40px;}
 .orange-color {color:orange;}
-section {display: flex;
+.flexible-container {display: flex;
          margin-bottom: 100px;}
 .half-width {width: 50%;
              padding:2%;}
@@ -17,4 +17,20 @@ section {display: flex;
              background-repeat: no-repeat;} 
 .dream-big {background-image: url(images/dream-bg.png);
             background-repeat: no-repeat;
-            background-position: right;}                          
+            background-position: right;} 
+.experience-area {background-image: url(images/exp-bg.png);
+                  background-repeat: no-repeat;
+                  background-position: left;}            
+.experience-item {width: 40%;
+                  margin-left: 5%;
+                  margin-right: 5%;
+                  padding-left: 20px;
+                  border-radius: 10px;
+                  box-shadow: 10px 10px 40px;}
+#web-dev-experience {border-left: 7px solid;
+                     border-image: linear-gradient(blue,cyan);
+                     border-image-slice: 1;}  
+#full-dev-experience {border-left: 7px solid;
+                      border-image: linear-gradient(purple,rgb(221, 109, 89));
+                      border-image-slice: 1;}
+footer p {text-align: center;}                                                       
